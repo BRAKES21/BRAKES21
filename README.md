@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @BRAKES21
+- 👋 Hi, I’m BRAKES21
 - 👀 I’m interested in web development and more
 - 🌱 I’m currently learning html and css
 - 💞️ I’m looking to collaborate on running codes and actively learning new things in the github community

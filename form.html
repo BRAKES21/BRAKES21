@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="PorscheTyraLux Form" content="Here you will fill out the required field, submit and receive a welcome badge and be part of the PorschePort community">
+    <title>PorscheForm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form autocomplete="on">
+        <fieldset>
+            <legend><strong>Personal Information</strong></legend>
+            <p><em>Let us know you more.</em></p>
+        <p>
+        <label for="firstName">FirstName:</label>
+        <input type="text" name="firstName" id="" placeholder="Cate" autocomplete="on" required autofocus>
+        </p>
+        <p>
+        <label for="lastName">LastName:</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Hollens" autocomplete="on" required autofocus>
+        </p>   
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="your secret" required >
+        </p> 
+        <p>
+            <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="xxxxxxxxxx" required autocomplete="tel-country-code">
+        </p>
+        <p>
+            <label for="userName">UserName:</label>
+            <input type="text" name="userName" id="userName" placeholder="Cate@work" required>
+        </p>
+        <p>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="14" max="70" step="1" value="18">
+        </p>
+        <p>
+            <label for="color">Favourite Color:</label>
+            <input type="color" name="color" id="color" placeholder="Green" autocomplete="on" optional>
+        </p> 
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Interests</legend>
+            <p><em>Which Porsche car makes your world go round</em></p>
+            <p>
+                <optgroup>
+                    <option value="Carrera">Carrera</option>
+                    <option value="Turbo">Turbo</option>
+                    <option value="Turbo S">Turbo S</option>
+                    <option value="GT2">GT2</option>
+                    <option value="GT3">GT3</option>
+                    <option value="GT3 RS">GT3 RS</option>
+                    <option value="Targa">Targa</option>
+                    <option value="Cabriolet">Cabriolet</option>
+                </optgroup>
+            </p>
+        </fieldset>
+    </form>
+    <footer>
+    <h1>Beginner Coding Projects</h1>
+    <ul>
+        <li>E-mail Newsletter</li>
+        <li>Build a survey/form</li>
+        <li>Interactive Resume</li>
+        <li>Basic POrtfolio Webpage</li>
+    </ul>
+    </footer>
+</body>
+</html>
